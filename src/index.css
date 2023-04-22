@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-link {
+  @apply dark:bg-[rgba(255,255,255,0.1)] dark:border-[rgba(255,255,255,0.5)]  bg-[rgba(0,0,0,0.05)] transition-[background,transform]  duration-[0.5s]  bg-opacity-10 border border-[rgba(0,0,0,0.5)] backdrop-blur-sm rounded-lg;
+}
+.btn-link:hover {
+  @apply dark:border-[rgb(255,255,255)] dark:bg-[rgba(255,255,255,0.05)]  border-[1.5px] border-[rgb(0,0,0)] bg-[rgba(255,255,255,0.02)]  -translate-y-1;
+}
+
+.asda {
+  background: #0000000d;
+  border: 1px solid #ffffff80;
+  backdrop-filter: blur(4px);
+  border-radius: 8px;
+  transition: background 0.5s;
+  color: #ffffff33;
+  transform: translateY(-0.25em);
+}
