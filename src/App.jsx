@@ -95,7 +95,7 @@ function App() {
               <AiOutlineInstagram className="text-2xl" />{" "}
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/caio-mendes-2aa971273/"
               target="_blank"
               rel="noreferrer"
               className="dark:hover:bg-[#ffffff33] hover:bg-[rgba(0,0,0,0.1)] p-4  rounded-full flex items-center justify-center transition-[background] duration-[.3s]"
