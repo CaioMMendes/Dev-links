@@ -1,4 +1,4 @@
-<div style=' text-align:center'>
+<div align='center'>
 <img  title="Imagem do projeto" src="https://cdn.discordapp.com/attachments/1068321517026414622/1099413059296039073/image.png" alt="Imagem do projeto"  />
 </div>
 
